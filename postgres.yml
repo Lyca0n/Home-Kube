@@ -28,7 +28,6 @@ metadata:
     app: postgres
   namespace: landkeeper    
 spec:
-  storageClassName: manual
   capacity:
     storage: 10Gi
   accessModes:
@@ -46,7 +45,6 @@ metadata:
     app: postgres
   namespace: landkeeper    
 spec:
-  storageClassName: manual
   accessModes:
     - ReadWriteMany
   resources:
